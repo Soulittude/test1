@@ -5,7 +5,7 @@ import { loadAuthState, saveAuthState } from "../utils/localStorage";
 
 const preloadedAuth = loadAuthState();
 
-const store = configureStore({
+export const store = configureStore({
     reducer: {
         auth: authReducer,
         invoice: invoiceReducer

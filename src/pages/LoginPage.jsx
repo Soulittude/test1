@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 export default function LoginPage() {
   const { t } = useTranslation();
   const dispatch = useDispatch();
-  const { user, state, error } = useSelector((state) => {
+  const { user, status, error } = useSelector((state) => {
     state.auth;
   });
   const [form] = Form.useForm();
@@ -45,7 +45,7 @@ export default function LoginPage() {
           <Button
             type="primary"
             htmlType="submit"
-            loading={state === "loading"}
+            loading={status === "loading"}
             block
           ></Button>
         </Form.Item>
