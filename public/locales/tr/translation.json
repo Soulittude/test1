@@ -1,0 +1,18 @@
+{
+    "login.email": "E-posta",
+    "login.password": "Parola",
+    "login.submit": "Giriş Yap",
+    "login.emailwarn": "Lütfen e-posta adresinizi giriniz",
+    "login.passwarn": "Lütfen şifrenizi giriniz",
+    "invoice.listTitle": "Fatura Listesi",
+    "invoice.detail": "Detay",
+    "invoice.detailTitle": "Fatura Detayı",
+    "invoice.no": "Fatura No",
+    "invoice.date": "Tarih",
+    "invoice.amount": "Tutar",
+    "invoice.status": "Durum",
+    "invoice.customer": "Müşteri",
+    "invoice.supplier": "Tedarikçi",
+    "invoice.dueDate": "Vade Tarihi",
+    "invoice.errorMessage": "Hata Mesajı"
+}

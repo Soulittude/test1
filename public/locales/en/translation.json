@@ -1,0 +1,18 @@
+{
+    "login.email": "E-mail",
+    "login.password": "Password",
+    "login.submit": "Sign In",
+    "login.emailwarn": "Please enter your e-mail",
+    "login.passwarn": "Please enter your password",
+    "invoice.listTitle": "Invoice List",
+    "invoice.detail": "Detail",
+    "invoice.detailTitle": "Invoice Detail",
+    "invoice.no": "Invoice No",
+    "invoice.date": "Date",
+    "invoice.amount": "Amount",
+    "invoice.status": "Status",
+    "invoice.customer": "Customer",
+    "invoice.supplier": "Supplier",
+    "invoice.dueDate": "Due Date",
+    "invoice.errorMessage": "Error Message"
+}
