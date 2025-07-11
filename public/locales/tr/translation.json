@@ -4,6 +4,7 @@
     "login.submit": "Giriş Yap",
     "login.emailwarn": "Lütfen e-posta adresinizi giriniz",
     "login.passwarn": "Lütfen şifrenizi giriniz",
+    "login.failed": "Giriş işlemi başarısız",
     "invoice.listTitle": "Fatura Listesi",
     "invoice.detail": "Detay",
     "invoice.detailTitle": "Fatura Detayı",
@@ -14,5 +15,7 @@
     "invoice.customer": "Müşteri",
     "invoice.supplier": "Tedarikçi",
     "invoice.dueDate": "Vade Tarihi",
-    "invoice.errorMessage": "Hata Mesajı"
+    "invoice.errorMessage": "Hata Mesajı",
+    "auth.error": "Auth token bulunamadı.",
+    "invoice.fetchfailed": "Fatura listesi getirme başarısız oldu."
 }

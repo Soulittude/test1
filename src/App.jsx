@@ -7,17 +7,21 @@ import InvoiceListPage from './pages/InvoiceListPage';
 import InvoiceDetailPage from './pages/InvoiceDetailPage';
 
 function PrivateRoute({ children }) {
-  const user = useSelector((s) => {
-    s.auth.user;
-  });
+  const user = useSelector(s => s.auth.user);
   return user ? children : <Navigate to="/login" replace />;
 }
 
 function App() {
+  const user = useSelector(s => s.auth.user);
+
   return (
     <BrowserRouter>
+      {/* always show language switcher */}
       <LanguageSwitcher />
-      {user && LogoutButton}
+
+      {/* only show logout if we have a user */}
+      {user && <LogoutButton />}
+
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route
@@ -36,7 +40,7 @@ function App() {
             </PrivateRoute>
           }
         />
-        <Route path="*" element={<Navigate to="/login" />} replace />
+        <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </BrowserRouter>
   );

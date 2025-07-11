@@ -4,6 +4,7 @@
     "login.submit": "Sign In",
     "login.emailwarn": "Please enter your e-mail",
     "login.passwarn": "Please enter your password",
+    "login.failed": "Failed to login",
     "invoice.listTitle": "Invoice List",
     "invoice.detail": "Detail",
     "invoice.detailTitle": "Invoice Detail",
@@ -14,5 +15,7 @@
     "invoice.customer": "Customer",
     "invoice.supplier": "Supplier",
     "invoice.dueDate": "Due Date",
-    "invoice.errorMessage": "Error Message"
+    "invoice.errorMessage": "Error Message",
+    "auth.error": "Auth token not found.",
+    "invoice.fetchfailed": "Invoice list fetch failed."
 }
