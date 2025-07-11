@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "../features/auth/authThunks";
+import { login } from "../features/auth/authThunk";
 import { Navigate } from "react-router-dom";
 import { Form, Button, Input, message } from "antd";
 import { useTranslation } from "react-i18next";
